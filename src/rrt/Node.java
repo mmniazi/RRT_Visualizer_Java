@@ -9,16 +9,6 @@ public class Node {
     private double distanceFromGoal;
     private Node parent;
     private ArrayList<Node> children;
-    /*
-    public Node(){
-        x = -1;
-        y = -1;
-        distanceFromGoal = -1;
-        distanceFromRoot = -1;
-        parent = null;
-        children = new ArrayList<>();
-    }
-    */
 
     public Node(int x, int y){
         this.x = x;
